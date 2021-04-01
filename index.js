@@ -5,7 +5,7 @@ bot.start(function (ctx) {
     for (const x in ctx) console.log(x)
     ctx.reply('Welcome');
     ctx.reply('saly Sekiro');
-    // ctx.reply("ur id is:"+ctx.from.id);
+    ctx.reply("ur id is:"+ctx.from.id);
 })
 bot.help((ctx) => ctx.reply('Send me a sticker'))
 bot.on('sticker', (ctx) => ctx.reply('👍'))
